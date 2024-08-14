@@ -1,0 +1,18 @@
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+/Users/ankush/.rvm/rubies/ruby-3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-7sh6yo sitelibdir\=./.gem.20240813-55781-7sh6yo clean
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-7sh6yo sitelibdir\=./.gem.20240813-55781-7sh6yo
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-7sh6yo sitelibdir\=./.gem.20240813-55781-7sh6yo install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 nkf.bundle ./.gem.20240813-55781-7sh6yo
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-7sh6yo sitelibdir\=./.gem.20240813-55781-7sh6yo clean

@@ -1,0 +1,16 @@
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+/Users/ankush/.rvm/rubies/ruby-3.1.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-58cjvj sitelibdir\=./.gem.20240813-55781-58cjvj clean
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-58cjvj sitelibdir\=./.gem.20240813-55781-58cjvj
+make: Nothing to be done for `all'.
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-58cjvj sitelibdir\=./.gem.20240813-55781-58cjvj install
+
+current directory: /Users/ankush/Desktop/whattodo/vendor/bundle/ruby/3.1.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240813-55781-58cjvj sitelibdir\=./.gem.20240813-55781-58cjvj clean

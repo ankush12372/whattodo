@@ -1,0 +1,22 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new beta build to TestFlight"
+  lane :beta do
+    # Take screenshots first
+    snapshot(
+      devices: ["iPhone 15", "iPhone 15 Pro", "iPad Pro 11-inch (M4)"], # Use available devices
+      languages: ["en-US", "es-MX"], # Add more languages as needed
+      output_directory: "./fastlane/screenshots", # Specify output directory
+      clear_previous_screenshots: true, # Clear previous screenshots
+      skip_open_summary: true, # Skip opening the summary after execution
+      erase_simulator: true # Erase simulator before running tests
+    )
+
+    match(app_identifier: "org.reactjs.native.example.whattodo", type: "appstore")
+    build_app(workspace: "whattodo.xcworkspace", scheme: "whattodo")
+
+    # Upload to TestFlight
+    pilot(api_key_path: "fastlane/store.json", skip_waiting_for_build_processing: true)
+  end
+end

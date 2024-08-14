@@ -1,0 +1,19 @@
+# Fastlane Snapfile
+# This file configures the screenshots taken with Fastlane
+
+# Choose the devices you want to take screenshots for
+devices = ["iPhone 15", "iPhone 15 Pro", "iPad Pro 11-inch (M4)"]
+
+# Languages you want to support
+languages = ["en-US", "es-MX"]
+
+# Specify the scheme and application you want to test
+scheme("whattodo")
+app_identifier("org.reactjs.native.example.whattodo")
+
+# Optional: Configure the output directory for screenshots
+output_directory("./fastlane/screenshots")
+
+# Optional: Configure the screenshot naming
+# You can customize how you want your screenshots to be named
+screenshot_name_prefix("screenshot_")
